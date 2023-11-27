@@ -103,10 +103,13 @@ function draw(playerChoice, computerChoice) {
 function restart() {
     playerScore = 0;
     computerScore = 0;
-    playerScore_span.innerHTML = playerScore;
-    computerScore_span.innerHTML = computerScore;
-    result_p.innerHTML = ""
-    setTimeout(() => model_div.style.display = "none", 5000)
+    
+    setTimeout(() => {
+        model_div.style.display = "none"
+        playerScore_span.innerHTML = playerScore;
+        computerScore_span.innerHTML = computerScore;
+        result_p.innerHTML = ""
+    }, 5000)
 }
 
 main();
