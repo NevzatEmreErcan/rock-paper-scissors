@@ -101,7 +101,6 @@ function draw(playerChoice, computerChoice) {
 };
 
 function restart() {
-    console.log("restart")
     playerScore = 0;
     computerScore = 0;
     playerScore_span.innerHTML = playerScore;
