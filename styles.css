@@ -106,6 +106,8 @@ body{
     box-shadow: 0 0 15px #25292b;
 }
 
+/* Modal */
+
 .modal{
     display: none;
     width: 100%;
